@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+section#lista_clientes{
+    background-color: rgb(36, 141, 233);
+    height: 80%;
+}
+
+.info_cliente{
+    background-color: rgb(59, 212, 212);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.btn_editar{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn_editar:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.btn_excluir{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn_excluir:hover{
+    background-color: red;
+    color: white;
+}
